@@ -1,4 +1,7 @@
 #!/bin/bash
 
-cd /home/user/NetBeansProjects/SwingSample/
+CURDIR=`dirname $0`
+echo $CURDIR
+
+cd $CURDIR
 java -jar SwingSample.jar
