@@ -55,6 +55,11 @@ public class ImageTimer extends JViewport{
         time = tim;
     }
     
+    public void min2() {
+        allsec = 120;
+        SubThread t = new SubThread();
+        t.run();
+    }
     public void min3() {
         allsec = 180;
         SubThread t = new SubThread();
